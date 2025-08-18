@@ -136,7 +136,7 @@ def Predict_set_up(A_obs,obs_len,predict_len,freq_scale=False):
 def Predicting(A_obs,obs_len,predict_len,
                covparams,cov_model,
                mean_func,mean_params,
-               sample_number=2, noise=0, error_threshold=40,
+               sample_number=2, noise=0, error_threshold=35,
                freq_scale=False):
     
     x_obs,y_obs,x_predict,x_true,y_true = Predict_set_up(A_obs,obs_len,predict_len,
